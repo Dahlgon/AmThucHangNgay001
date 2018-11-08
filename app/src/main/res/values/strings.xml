@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Am Thuc Hang Ngay 0.01</string>
+    <string name="welcome">Ẩm thực hằng ngày</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="slogan">Giải pháp tối ưu chăm lo cho bữa ăn hằng ngày</string>
+    <string name="home">Trang chủ</string>
+    <string name="about">Giới thiệu</string>
+    <string name="quit">Thoát</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="confirm">Xác nhận thoát?</string>
+    <string name="title_activity_main_home">Home</string>
+    <string name="menu_create">Thiết lập thực đơn</string>
+    <string name="eate_place">Địa điểm ăn uống</string>
+    <string name="menu_id">Mã thực đơn</string>
+    <string name="more">Thêm</string>
+    <string name="add">Thêm</string>
+    <string name="cancel">Hủy</string>
+    <string name="add_food">Thêm món</string>
+    <string name="number">Dự kiến số người</string>
+    <string name="note">Ghi chú</string>
+    <string name="choose">Chọn</string>
+    <string name="material">Thêm nguyên liệu</string>
+    <string name="food_name">Tên món</string>
+    <string name="how">Cách làm</string>
+    <string name="count">Thành tiền: </string>
+    <string name="price">Giá</string>
+    <string name="how_many">Số lượng</string>
+    <string name="material_name">Tên nguyên liệu</string>
+    <string name="normal">Quán ăn bình dân</string>
+    <string name="office">Cơm văn phòng</string>
+    <string name="fast">Ăn vặt</string>
+    <string name="party">Tiệc, cỗ</string>
+    <string name="restaurant">Tên quán</string>
+    <string name="address">Địa chỉ</string>
+    <string name="contact">Liên hệ</string>
+
+</resources>

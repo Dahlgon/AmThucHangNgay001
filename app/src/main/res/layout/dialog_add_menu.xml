@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="Overdraw">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterMaxLength="8">
+
+        <EditText
+            android:id="@+id/edBookID_dialog_addBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/menu_id"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spnMenuType"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btnAddMenuType"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.3"
+            android:text="@string/more"
+            android:textColor="#ffffff"
+            android:background="#7e57c2"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/number"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spnWhichMeal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btnThemTheLoai"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.3"
+            android:text="@string/more"
+            android:textColor="#ffffff"
+            android:background="#7e57c2"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_food"
+            android:textColor="#ffffff"
+            android:background="#7e57c2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spnDate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/btnAddDate"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="0.3"
+            android:text="@string/choose"
+            android:textColor="#ffffff"
+            android:background="#7e57c2"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/note"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnConfirmAdd"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="3dp"
+            android:layout_weight="1"
+            android:text="@string/add"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:background="#7e57c2"/>
+
+        <Button
+            android:id="@+id/btnCancelAdd"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            tools:ignore="RtlHardcoded"
+            android:textColor="#ffffff"
+            android:background="#7e57c2"/>
+    </LinearLayout>
+</LinearLayout>
