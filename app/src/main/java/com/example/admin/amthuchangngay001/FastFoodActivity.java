@@ -34,9 +34,8 @@ public class FastFoodActivity extends AppCompatActivity {
         lvListFF = findViewById(R.id.lvListFF);
         fabAddFastFood = findViewById(R.id.fabAddFastFood);
         setSupportActionBar(toolbarFF);
-        Objects.requireNonNull(getSupportActionBar()).setDisplayShowTitleEnabled(false);
         toolbarFF.setTitleTextColor(Color.WHITE);
-        toolbarFF.setTitle(getString(R.string.normal));
+        toolbarFF.setTitle(getString(R.string.fast));
         toolbarFF.setNavigationIcon(R.drawable.undo);
 
     }
@@ -48,24 +47,6 @@ public class FastFoodActivity extends AppCompatActivity {
                 showDialogAddFastFood();
             }
         });
-        toolbarFF.setNavigationOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
-        lvListFF.addOnScrollListener(new RecyclerView.OnScrollListener() {
-            @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                super.onScrolled(recyclerView, dx, dy);
-                if (dy > 0 && fabAddFastFood.getVisibility() == View.VISIBLE) {
-                    fabAddFastFood.hide();
-                } else if (dy < 0 && fabAddFastFood.getVisibility() != View.VISIBLE) {
-                    fabAddFastFood.show();
-                }
-            }
-        });
-
 
     }
 

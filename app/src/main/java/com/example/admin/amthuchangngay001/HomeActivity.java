@@ -2,12 +2,9 @@ package com.example.admin.amthuchangngay001;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -20,7 +17,7 @@ import android.view.MenuItem;
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private AboutFragment aboutFragment;
-    private com.example.admin.amthuchangngay001.Menu menu;
+    private MenuFragment menuFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,17 +37,17 @@ public class HomeActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         aboutFragment = new AboutFragment();
-        menu = new com.example.admin.amthuchangngay001.Menu();
+        menuFragment = new MenuFragment();
         showFragmentMenu();
     }
 
     private void showFragmentMenu() {
         android.support.v4.app.FragmentManager manager = getSupportFragmentManager();
         FragmentTransaction ft = manager.beginTransaction();
-        if (menu.isAdded()) {
-            ft.show(menu);
+        if (menuFragment.isAdded()) {
+            ft.show(menuFragment);
         } else {
-            ft.add(R.id.container1, menu);
+            ft.add(R.id.container1, menuFragment);
         }
         if (aboutFragment.isAdded()) {
             ft.hide(aboutFragment);
@@ -65,8 +62,8 @@ public class HomeActivity extends AppCompatActivity
         } else {
             ft.add(R.id.container1, aboutFragment);
         }
-        if (menu.isAdded()) {
-            ft.hide(menu);
+        if (menuFragment.isAdded()) {
+            ft.hide(menuFragment);
         }
         ft.commit();
     }

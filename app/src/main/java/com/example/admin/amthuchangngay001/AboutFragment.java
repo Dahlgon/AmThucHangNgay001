@@ -41,7 +41,7 @@ public class AboutFragment extends Fragment {
         aboutList.add(about2);
         About about3 = new About("Thiết lập thực đơn hằng ngày, giới thiệu địa điểm ăn uống","Uses");
         aboutList.add(about3);
-        About about4 = new About("RK31597-FPTP-HN151018","App ID");
+        About about4 = new About("RK31597-FPTP-HN1118","App ID");
         aboutList.add(about4);
     }
 }

@@ -30,6 +30,7 @@
         android:layout_marginBottom="10dp">
 
         <Button
+            android:id="@+id/btnAddMaterials"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/material"
@@ -44,7 +45,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/edDescription_dialog_AddTypeBook"
+            android:id="@+id/edNumberMaterial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/how"

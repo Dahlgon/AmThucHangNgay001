@@ -14,7 +14,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/edTypeBookName_dialog_AddTypeBook"
+            android:id="@+id/edAddMaterialName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/material_name"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/edPosition_dialog_AddTypeBook"
+            android:id="@+id/edMaterialPrice"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/price"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/edDescription_dialog_AddTypeBook"
+            android:id="@+id/edNumberMaterial"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/how_many"
@@ -60,7 +60,7 @@
             android:text="@string/count" />
 
         <TextView
-            android:id="@+id/tvStatisticYear"
+            android:id="@+id/tvMoney"
             android:textSize="20sp"
             android:layout_weight="2"
             android:layout_width="0dp"
@@ -75,7 +75,7 @@
         android:layout_marginTop="60dp">
 
         <Button
-            android:id="@+id/btnAdd_dialog_AddTypeBook"
+            android:id="@+id/btnAdd_dialog_AddMaterial"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginBottom="3dp"
@@ -86,7 +86,7 @@
             android:textAllCaps="false"/>
 
         <Button
-            android:id="@+id/btnCancel_dialog_AddTypeBook"
+            android:id="@+id/btnCancel_dialog_AddMaterial"
             android:layout_width="0dp"
             android:layout_height="40dp"
             android:layout_marginBottom="3dp"

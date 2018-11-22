@@ -14,7 +14,7 @@
 
         <android.support.v7.widget.Toolbar
             app:layout_scrollFlags="scroll|enterAlways|snap"
-            android:id="@+id/toolbarMC"
+            android:id="@+id/toolbarFF"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="#b085f5"
@@ -40,7 +40,7 @@
         android:layout_marginBottom="15dp"
         android:layout_marginEnd="15dp"
         android:src="@drawable/add_menu"
-        app:backgroundTint="#b085f5"
+        app:backgroundTint="#ffffff"
         app:fabSize="mini" />
 
 </android.support.design.widget.CoordinatorLayout>
