@@ -3,12 +3,9 @@ package com.example.admin.amthuchangngay001.model;
 public class Normal {
     private String NormalName;
     private String NormalAdd;
-    private String NormalContact;
+    private long NormalContact;
 
-    public Normal(String normalName, String normalAdd, String normalContact) {
-        NormalName = normalName;
-        NormalAdd = normalAdd;
-        NormalContact = normalContact;
+    public Normal() {
     }
 
     public String getNormalName() {
@@ -27,11 +24,11 @@ public class Normal {
         NormalAdd = normalAdd;
     }
 
-    public String getNormalContact() {
+    public long getNormalContact() {
         return NormalContact;
     }
 
-    public void setNormalContact(String normalContact) {
+    public void setNormalContact(long normalContact) {
         NormalContact = normalContact;
     }
 }
